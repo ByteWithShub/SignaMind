@@ -1996,5 +1996,5 @@ with tab5:
 #Footer with contact info, course info, and model details for reference and attribution.
 st.markdown("---")
 st.caption(
-    "SignaMind: Learns how you learn sign | ASL Learning Intelligence Dashboard "
+    "SignaMind: Learns how you learn sign | ASL Learning Intelligence Dashboard / "
     "Shubhangi Singh (041162377) | Model: MobileNetV2 | 36 classes (A-Z, 0-9)")

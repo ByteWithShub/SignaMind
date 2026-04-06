@@ -1,0 +1,12 @@
+Dataset: https://www.kaggle.com/datasets/prathumarikeri/american-sign-language-09az
+https://huggingface.co/datasets/Voxel51/WLASL
+streamlit
+tensorflow
+pandas
+numpy
+pillow
+matplotlib
+scikit-learn
+opencv-python-headless
+Pillow
+pyspellchecker

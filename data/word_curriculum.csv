@@ -1,0 +1,13 @@
+word,difficulty,category
+YES,easy,response
+NO,easy,response
+GO,easy,action
+STOP,easy,action
+HELLO,medium,greeting
+LOVE,medium,emotion
+HELP,medium,action
+HOME,medium,daily
+BOOK,medium,daily
+FOOD,medium,daily
+FRIEND,hard,social
+THANKS,hard,politeness

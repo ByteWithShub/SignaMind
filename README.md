@@ -71,14 +71,28 @@ This project aligns with Business Intelligence programming goals by:
 ```text
 SignaMind/
 │
-├── app3.py
-├── utils.py
-├── requirements.txt
-├── README.md
-├── .gitignore
+├── app/
+│   ├── app.py
+│   ├── utils.py
+│   │
+│   ├── assets/
+│   │   ├── letters/
+│   │   │   ├── A.jpg
+│   │   │   ├── B.jpg
+│   │   │   └── ... Z.jpg
+│   │   │
+│   │   └── numbers/
+│   │       ├── 0.png
+│   │       ├── 1.png
+│   │       └── ... 9.png
+│   │
+│   └── data/
+│       └── progress.json
 │
 ├── artifacts/
 │   ├── class_mapping.json
+│   ├── hand_landmarker.task
+│   │
 │   ├── curriculum/
 │   │   ├── curriculum.json
 │   │   ├── easy_letters.csv
@@ -87,29 +101,55 @@ SignaMind/
 │   │   └── word_curriculum.csv
 │   │
 │   ├── evaluation/
+│   │   ├── confusion_matrix_baseline.npy
+│   │   ├── confusion_matrix_model2_augmented.npy
+│   │   ├── confusion_matrix_model3_mobilenetv2.npy
 │   │   ├── model_comparison_summary.csv
+│   │   ├── per_class_metrics_baseline.csv
+│   │   ├── per_class_metrics_model2_augmented.csv
 │   │   ├── per_class_metrics_model3_mobilenetv2.csv
+│   │   ├── top_confusions_baseline.csv
+│   │   ├── top_confusions_model2_augmented.csv
 │   │   └── top_confusions_model3_mobilenetv2.csv
 │   │
+│   ├── asl_landmarks.csv
+│   ├── asl_landmarks_failed.csv
+│   │
+│   ├── model_card_20260205_225054.json
+│   ├── model_card_model2_20260206_010227.json
+│   ├── model_card_model3_20260206_020710.json
+│   │
+│   ├── train_history_20260205_225054.csv
+│   ├── train_history_model2_20260206_010227.csv
+│   ├── train_history_model3_20260206_020710.csv
+│
+├── models/
+│   ├── baseline_cnn.keras
+│   ├── model2_augmented.keras
 │   └── model3_mobilenetv2.keras
 │
-├── app/
-│   ├── logs/
-│   │   ├── user_progress.json
-│   │   └── word_attempts_log.csv
+├── data/
+│   ├── word_curriculum.csv
 │   │
-│   └── assets/
-│       ├── reference_signs/
-│       ├── letters/
-│       └── numbers/
+│   ├── logs/
+│   │   └── predictions_log.csv
+│   │
+│   └── processed/
+│       ├── train_split.csv
+│       ├── val_split.csv
+│       └── test_split.csv
 │
-└── notebooks/
-    ├── 01_data_exploration.ipynb
-    ├── 02_preprocessing.ipynb
-    ├── 03_baseline_model.ipynb
-    ├── 04_model2_augmented_cnn.ipynb
-    ├── 05_model3_transfer_learning.ipynb
-    └── 06_evaluation_metrics.ipynb
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_baseline_model.ipynb
+│   ├── 04_model2_augmented_cnn.ipynb
+│   ├── 05_model3_transfer_learning.ipynb
+│   └── 06_evaluation_metrics.ipynb
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 Installation
 ```

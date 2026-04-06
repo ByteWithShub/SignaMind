@@ -1,5 +1,4 @@
-Dataset: https://www.kaggle.com/datasets/prathumarikeri/american-sign-language-09az
-https://huggingface.co/datasets/Voxel51/WLASL
+
 streamlit
 tensorflow
 pandas

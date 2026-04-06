@@ -4,6 +4,8 @@ SignaMind is a behavior-aware, data-driven ASL learning application built with S
 
 The system goes beyond static prediction by tracking how users practice, identifying failure patterns, and providing adaptive feedback to improve learning outcomes over time.
 
+[![Live Demo](https://img.shields.io/badge/Live%20App-Open-blue?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/ByteWithShub/SignaMind) 
+
 ### Project Overview
 
 This project combines:

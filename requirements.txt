@@ -7,3 +7,4 @@ mediapipe==0.10.14
 tensorflow==2.16.1
 scikit-learn==1.5.2
 matplotlib==3.9.2
+pyspellchecker

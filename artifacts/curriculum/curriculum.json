@@ -1,0 +1,68 @@
+{
+  "easy_start": [
+    "u",
+    "w",
+    "f",
+    "e",
+    "x",
+    "y",
+    "m",
+    "n",
+    "i",
+    "p"
+  ],
+  "hard_focus": [
+    "2",
+    "v",
+    "z",
+    "3",
+    "g",
+    "h",
+    "d",
+    "0",
+    "4",
+    "s"
+  ],
+  "confusion_pairs": [
+    {
+      "true": "g",
+      "pred": "h"
+    },
+    {
+      "true": "v",
+      "pred": "2"
+    },
+    {
+      "true": "0",
+      "pred": "o"
+    },
+    {
+      "true": "d",
+      "pred": "z"
+    },
+    {
+      "true": "l",
+      "pred": "3"
+    },
+    {
+      "true": "5",
+      "pred": "4"
+    },
+    {
+      "true": "6",
+      "pred": "2"
+    },
+    {
+      "true": "7",
+      "pred": "4"
+    },
+    {
+      "true": "8",
+      "pred": "z"
+    },
+    {
+      "true": "d",
+      "pred": "2"
+    }
+  ]
+}

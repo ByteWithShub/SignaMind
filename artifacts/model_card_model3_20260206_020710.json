@@ -1,0 +1,8 @@
+{
+  "model_version": "model3_mobilenetv2",
+  "image_size": [
+    96,
+    96
+  ],
+  "notes": "Transfer learning MobileNetV2 (ImageNet), grayscale->RGB, optional fine-tune."
+}

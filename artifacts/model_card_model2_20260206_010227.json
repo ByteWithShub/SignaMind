@@ -1,0 +1,8 @@
+{
+  "model_version": "model2_augmented",
+  "image_size": [
+    64,
+    64
+  ],
+  "notes": "CNN with augmentation, batch norm, dropout, early stopping."
+}

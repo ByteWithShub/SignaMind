@@ -1,0 +1,12 @@
+{
+  "model_version": "baseline_cnn",
+  "image_size": [
+    64,
+    64
+  ],
+  "batch_size": 32,
+  "num_classes": 36,
+  "optimizer": "Adam(1e-3)",
+  "loss": "SparseCategoricalCrossentropy",
+  "notes": "Baseline CNN trained on standardized 64x64 grayscale images with stratified splits."
+}

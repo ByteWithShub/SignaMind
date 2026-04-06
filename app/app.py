@@ -60,7 +60,6 @@ except ImportError:
 #Page configuration for the Streamlit app, setting title, icon, and layout
 st.set_page_config(
     page_title="SignaMind: Learns How You Learn Sign",
-    page_icon="c:\\Users\\shubh\\Downloads\\sign.png",
     layout="wide",
 )
 
